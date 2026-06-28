@@ -265,10 +265,6 @@ async function submitRsvp() {
 
         <div class="flex flex-col gap-3">
           <div v-for="(event, i) in [
-            { icon: '️🤵🏽', label: 'Сватови',            time: '10:00' },
-            { icon: '👰🏽‍♀️', label: 'По невестата',       time: '12:00' },
-            { icon: '⛪', label: 'Црква',              time: '14:30' },
-            { icon: '💍', label: 'Регистрација',       time: '18:00' },
             { icon: '🥂', label: 'Прием во ресторан',  time: '19:00' },
             { icon: '🎵', label: 'Првиот танц',        time: '20:00' },
             { icon: '🍽️', label: 'Вечера',             time: '22:00' },
