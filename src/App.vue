@@ -395,7 +395,7 @@ async function submitRsvp() {
                 <input
                   v-model="guest.name"
                   type="text"
-                  placeholder="Ime и презиме..."
+                  placeholder="Име и презиме..."
                   class="w-full bg-[#f5f0ea] rounded-xl px-4 py-3 font-['Cormorant_Garamond'] text-lg text-[#2e2118] placeholder-[#9b8c7a] outline-none border border-transparent focus:border-[#c9a96e] transition-colors duration-200"
                 />
                 <div class="flex gap-3">
